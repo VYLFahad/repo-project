@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>biriyani</title>
+    <link rel="stylesheet" href="nav.css">
+    <style>
+        .parent {
+            display: flex;
+            justify-content: center;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            width: 300px;
+            height: 200px;
+            background-image: url(biriyani.png);
+            background-position: center;
+            background-size: cover;
+            margin: 5px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            transition: 0.3s;
+
+
+        }
+        .card:hover {
+            transform: translateY(5px);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="burger.html">burger</a></li>
+                <li><a href="pizza.html">pizz</a></li>
+                <li><a href="biriyani.html">biriyani</a></li>
+            </ul>
+    </header>
+    <section class="parent">
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+    </section>
+
+</body>
+
+</html>
