@@ -1,5 +1,5 @@
 nav {
-   background-color: rgb(232, 224, 224);
+   background-color: rgb(72, 69, 69);
    padding: 10px 20px ;
 
 }
@@ -12,7 +12,7 @@ nav,ul {
 }
 nav,ul,li,a {
     text-decoration: none;
-    color:black;
+    color: whitesmoke;
     font-size: 18px;
     padding: 5px 8px;  
 }
